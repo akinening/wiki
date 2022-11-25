@@ -21,24 +21,24 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>定性調査 &rarr;</h2>
             <p>ユーザーインタビュー / エスノグラフィ / ヒューリスティック評価</p>
           </a>
 
-          <a href="/" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>定量調査 &rarr;</h2>
-            <p>統計データ / GA分析 / アンケート</p>
+            <p>統計データ / GA分析 / アンケート<br/>.</p>
           </a>
 
-          <a href="/" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>AsIs &rarr;</h2>
             <p>ペルソナ / 共感マップ / カスタマージャーニーマップ(AsIs)</p>
           </a>
 
-          <a href="/" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>ToBe &rarr;</h2>
-            <p>PSF / PMF / カスタマージャーニーマップ(ToBe)</p>
+            <p>PSF / PMF / カスタマージャーニーマップ(ToBe)<br/>.</p>
           </a>
         </div>
       </main>
