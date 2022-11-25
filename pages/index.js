@@ -21,34 +21,24 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/" className={styles.card}>
+            <h2>定性調査 &rarr;</h2>
+            <p>ユーザーインタビュー / エスノグラフィ / ヒューリスティック評価</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/" className={styles.card}>
+            <h2>定量調査 &rarr;</h2>
+            <p>統計データ / GA分析 / アンケート</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/" className={styles.card}>
+            <h2>AsIs &rarr;</h2>
+            <p>ペルソナ / 共感マップ / カスタマージャーニーマップ(AsIs)</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/" className={styles.card}>
+            <h2>ToBe &rarr;</h2>
+            <p>PSF / PMF / カスタマージャーニーマップ(ToBe)</p>
           </a>
         </div>
       </main>
